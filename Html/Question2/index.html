@@ -20,10 +20,10 @@ image for reference -->
     <form class="container">
         <fieldset>
         <label for="fname">First Name : </label><br>
-        <input type="text" name="fname" id="fname" required>
+        <input type="text" name="fname" maxlength="32" pattern="[A-Za-z]{1,32}" id="fname" required>
         <br>
         <label for="lname">Last Name : </label><br>
-        <input type="text" name="lname" id="lname" required>
+        <input type="text" name="lname" maxlength="32" pattern="[A-Za-z]{1,32}" id="lname" required>
         <br>
         <label for="dob">Date of Birth : </label><br>
         <input type="date" name="dob" id="dob" required>
@@ -51,14 +51,14 @@ image for reference -->
         <br>
 
         <label for="profession">Profession : </label><br>
-        <input type="text" name="profession" id="profession" required>
+        <input type="text" name="profession" maxlength="32" pattern="[A-Za-z]{1,32}" id="profession" required>
         <br>
 
         <label for="useremail">Email : </label><br>
         <input type="email" name="useremail" id="useremail" required>
         <br>
         <label for="mobno">Mobile Number : </label><br>
-        <input type="number" name="mobno" id="mobno" required>
+        <input type="text" name="mobno" id="mobno" maxlength="10" pattern="[6-9]{1}[0-9]{9}" required>
         <br>
         <input type="reset" class="btn btn-primary" value="Reset">
         <input type="submit" class="btn btn-primary" value="Submit">

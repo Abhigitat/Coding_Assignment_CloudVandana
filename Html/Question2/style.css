@@ -10,15 +10,12 @@ div{
     padding: 20px;
     margin: 30px;
 }
-label{
-    margin-top: 10px;
 
-}
 h2{
     text-align: center;
 }
 
-input[type=text],input[type=date],input[type=email],input[type=number], select {
+input[type=text],input[type=date],input[type=email], select {
     width: 100%; 
     padding: 12px;
     border: 1px solid #ccc;
