@@ -1,4 +1,42 @@
-div{
-    display: flex;
-    justify-content: center;
+body{
+    background-color: darkslategrey;
 }
+div{
+    width: 50%;
+    border-width:2px ;
+    border-color: black;
+    justify-content: space-around;
+    background-color: antiquewhite;
+    padding: 20px;
+    margin: 30px;
+}
+label{
+    margin-top: 10px;
+
+}
+h2{
+    text-align: center;
+}
+
+input[type=text],input[type=date],input[type=email],input[type=number], select {
+    width: 100%; 
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=radio]{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 5px;
+}
+input[type=reset],input[type=submit]{
+    margin: 10px;
+    width: 75px;
+    height: 37px;
+}
+  
