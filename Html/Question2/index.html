@@ -5,3 +5,62 @@ reset the form while clicking on submit, first, it will check all the fields and
 validations and then a popup will appear displaying all the selected values with labels in
 front of it. On closing the popup, the form should reset all the values. Use the following
 image for reference -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+    <form>
+        <label for="fname">First Name : </label>
+        <input type="text" name="fname" id="fname" required>
+
+        <label for="lname">Last Name : </label>
+        <input type="text" name="lname" id="lname" required>
+
+        <label for="dob">Date of Birth : </label>
+        <input type="date" name="dob" id="dob" required>
+
+
+
+        <label for="country">Country : </label>
+        <select name="country" id="country" required>
+            <option disabled selected>Select Country</option>
+            <option value="India">India</option>
+            <option value="America">America</option>
+            <option value="England">England</option>
+            <option value="Paris">Paris</option>
+            <option value="Australia">Australia</option>
+            <option value="Pakistan">Pakistan</option>
+            <option value="Sri Lanka">Sri Lanka</option>
+            <option value="Other">Other</option>
+        </select>
+
+
+        <label for="gender" >Gender : </label>
+        <input type="radio" name="gender" class="gen" value="Male" required>Male
+        <input type="radio" name="gender" class="gen" value="Female">Female
+
+
+        <label for="profession">Profession : </label>
+        <input type="text" name="profession" id="profession" required>
+
+
+        <label for="useremail">Email : </label>
+        <input type="email" name="useremail" id="useremail" required>
+
+        <label for="mobno">Mobile Number : </label>
+        <input type="number" name="mobno" id="mobno" required>
+
+        <input type="reset" value="Reset">
+        <input type="submit" value="submit">
+    </form>
+</div>
+    
+</body>
+</html>
