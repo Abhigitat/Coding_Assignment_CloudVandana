@@ -20,18 +20,18 @@ image for reference -->
     <div class="container"><h2><b>Survey Form</b></h2>
     <form class="container">
         <fieldset>
-        <label for="fname">First Name : </label><br>
+        <label for="fname">First Name : <span>*</span></label><br>
         <input type="text" name="fname" maxlength="32" pattern="[A-Za-z]{1,32}" id="fname" required>
         <br>
-        <label for="lname">Last Name : </label><br>
+        <label for="lname">Last Name : <span>*</span></label><br>
         <input type="text" name="lname" maxlength="32" pattern="[A-Za-z]{1,32}" id="lname" required>
         <br>
-        <label for="dob">Date of Birth : </label><br>
+        <label for="dob">Date of Birth : <span>*</span></label><br>
         <input type="date" name="dob" id="dob" required>
         <br>
 
 
-        <label for="country">Country : </label><br>
+        <label for="country">Country : <span>*</span></label><br>
         <select name="country" id="country" required>
             <option disabled selected>Select Country</option>
             <option value="India">India</option>
@@ -45,20 +45,20 @@ image for reference -->
         </select>
         <br>
 
-        <label for="gender" >Gender : </label>
+        <label for="gender" >Gender : <span>*</span></label>
         <input type="radio" name="gender" class="gen" value="Male" placeholder="Male" required>Male
         <input type="radio" name="gender" class="gen" value="Female" placeholder="Female">Female
         <input type="radio" name="gender" class="gen" value="other" placeholder="Other">Other
         <br>
 
-        <label for="profession">Profession : </label><br>
+        <label for="profession">Profession : <span>*</span></label><br>
         <input type="text" name="profession" maxlength="32" pattern="[A-Za-z]{1,32}" id="profession" required>
         <br>
 
-        <label for="useremail">Email : </label><br>
+        <label for="useremail">Email : <span>*</span></label><br>
         <input type="email" name="useremail" id="useremail" required>
         <br>
-        <label for="mobno">Mobile Number : </label><br>
+        <label for="mobno">Mobile Number : <span>*</span></label><br>
         <input type="text" name="mobno" id="mobno" maxlength="10" pattern="[6-9]{1}[0-9]{9}" required>
         <br>
         <input type="reset" class="btn btn-primary" value="Reset">

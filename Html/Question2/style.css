@@ -1,5 +1,6 @@
 body{
     background-color: darkslategrey;
+    align-items: center;
 }
 div{
     width: 50%;
@@ -36,4 +37,6 @@ input[type=reset],input[type=submit]{
     width: 75px;
     height: 37px;
 }
-  
+span{
+    color: red;
+}
